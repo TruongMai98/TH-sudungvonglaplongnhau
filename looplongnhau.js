@@ -5,6 +5,7 @@ for ( i = 1; i <= 10; i++){
         sout = sout + "<td>" + i * j + "</td>";
     }
     sout = sout + "</tr>";
+
 }
 sout = sout + "</table>";
 document.write(sout);
